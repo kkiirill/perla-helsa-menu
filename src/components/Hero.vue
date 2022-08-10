@@ -27,10 +27,6 @@
               :product="product"
             />
           </ul>
-          <img src="../assets/1_cod_1.png" />
-          <img src="../assets/1_cod_2.png" />
-          <img src="../assets/1_tuna_1.png" />
-          <img src="../assets/1_tuna_2.png" />
       </div>
     </div>
   </main>

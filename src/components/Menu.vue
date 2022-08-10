@@ -7,10 +7,6 @@
       >
         <img src="../assets/close.png" alt="Close" class="w-3 h-3" />
       </div>
-      <template>
-      
-      
-      </template>
       <nav v-show="!showAdult">
         <ul class="menu-list" v-show="!showKids">
           <li class="font-semibold pb-9">
