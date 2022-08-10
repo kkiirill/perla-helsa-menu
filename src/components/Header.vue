@@ -27,7 +27,7 @@
         </router-link>
       </div>
       <div class="flex justify-center items-center">
-        <router-link to="/login">
+        <router-link to="/">
           <img
             src="../assets/login.png"
             alt=""
