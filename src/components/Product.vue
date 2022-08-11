@@ -1,9 +1,9 @@
 <template>
-  <li class="m-w-30 hover:scale-105 transition cursor-pointer">
+  <li class="m-w-30 hover:scale-105 transition cursor-pointer hover:shadow-lg">
     <div class="pb-6">
       <img
         :src="product?.image"
-        class="w-[114px] h-[114px] sm:w-[218px] sm:h-[218px] product-image a"
+        class="w-[114px] h-[114px] sm:w-[218px] sm:h-[218px] product-image"
         :alt="product.title"
       />
     </div>

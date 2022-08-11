@@ -17,16 +17,16 @@
         <span class="hidden lg:block hero-text"
           >Популярное в этой категории</span
         >
-          <ul
-            v-show="products"
-            class="flex flex-wrap justify-between items-center pt-12 lg:pt-6 gap-[30px] 2xl:gap-[60px] 2xl:pr-14"
-          >
-            <Product
-              v-for="product in products"
-              :key="product.id"
-              :product="product"
-            />
-          </ul>
+        <ul
+          v-show="products"
+          class="flex flex-wrap justify-between items-center pt-12 lg:pt-6 gap-[30px] 2xl:gap-[60px] 2xl:pr-14 xl:pb-5"
+        >
+          <Product
+            v-for="product in products"
+            :key="product.id"
+            :product="product"
+          />
+        </ul>
       </div>
     </div>
   </main>
@@ -61,7 +61,12 @@ li {
   padding-bottom: 28px;
 }
 
+li:hover {
+  font-weight: 600;
+}
+
 .hero-item {
+  font-weight: 400;
   font-size: 15px;
   line-height: 18px;
   color: rgba(0, 40, 79, 0.4);

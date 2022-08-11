@@ -119,9 +119,15 @@
       <div v-if="!showAdult" v-show="!showKids">
         <div class="flex items-center justify-center mb-12 xl:mb-[26px]">
           <div class="pr-4">
-            <img src="../assets/phone.png" class="w-4 h-4" />
+            <a clss="list-none" href="tel:+380800330039">
+              <img src="../assets/phone.png" class="w-4 h-4"
+            /></a>
           </div>
-          <p class="menu-number font-semibold text-[22px]">0 800 330 039</p>
+          <a clss="list-none" href="tel:+380800330039"
+            ><p class="menu-number font-semibold text-[22px]">
+              0 800 330 039
+            </p></a
+          >
           <span class="menu-text font-semibold"
             >Call-центр работает с 7:00 до 23:00</span
           >
